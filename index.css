@@ -18,9 +18,9 @@ body {height: 100%;
     padding: 1.5rem 1rem;
     opacity: 0.9;
 }
-p  {font-size: 1rem; line-height: 150%;}
+p  {font-size: 1rem; line-height: 150%; font-weight: 400;}
 h2 {font-size: 2.65rem; font-weight: 800;}
-h3 {font-size: 2.2rem; font-weight: 600;}
+h3 {font-size: 2.2rem; font-weight: 700;}
 h4 {font-size: 1.5rem;}
 h5 {font-size: 1.2rem;}
 
@@ -92,7 +92,7 @@ main {
 }
 
 .aside-main h3 {margin-bottom: 2rem;
-color: orange;}
+color: hsl(35, 77%, 62%)}
 
 
 /* CONTAINER FLEX */
@@ -160,7 +160,7 @@ header nav ul {
     list-style-type: none;
 }
 
-header nav ul li:hover, .aside-main h4:hover { color: orange;
+header nav ul li:hover, .aside-main h4:hover { color: hsl(35, 77%, 62%);
 
 }
 
@@ -216,7 +216,9 @@ align-items: flex-start;}
 
 
 .aside-main {grid-area: aside;
-height: auto;}
+/* height: auto;
+padding: auto;} */
+}
 
 .aside-main h4, .aside-main p {
     font-size: 16px;
